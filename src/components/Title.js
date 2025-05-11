@@ -14,14 +14,13 @@ function Title(props) {
         transformOrigin: "bottom",
         left: props.left,
       }}
-    >
+      className="pixelated">
       <img
         src={props.src}
         alt={""}
         style={{
           transform: `translate(-${left}px, -${bottom}px)`,
-        }}
-      ></img>
+        }}></img>
     </div>
   );
 }
